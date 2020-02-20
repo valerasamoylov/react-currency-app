@@ -1,0 +1,26 @@
+.App-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.currencyTable {
+  background-color: #485bb1;
+  border-collapse: collapse;
+  font-size: 1.8em;
+  color: #1f1e1e;
+}
+
+.currencyTable td {
+  padding: 15px;
+  border-bottom: 1px solid #797575;
+}
+
+.currencyTable th {
+  padding: 20px;
+  color: white;
+  border-bottom: 3px solid #fff;
+}

@@ -1,5 +1,6 @@
 import React, { useEffect, useState, Component } from "react";
 import { API_URL, API_KEY, Base_Currency } from "../../config";
+import "./Main.css";
 
 class Main extends Component {
   constructor(props) {
@@ -61,17 +62,10 @@ class Main extends Component {
     } else {
       return (
         <main>
+          <div>Basic Currency is {Base_Currency} </div>
           <div className="App-body">
-            <table className="currencyTable">
-              <thead>
-                <tr>
-                  <th>&nbsp;</th>
-                  <th>EXCHANGE RATE</th>
-                </tr>
-              </thead>
-              {this.createTable()}
-            </table>
-            <div>Basic Currency is {Base_Currency} </div>
+            <h2>Currency App</h2>
+            <table className="currencyTable">{this.createTable()}</table>
           </div>
         </main>
       );
