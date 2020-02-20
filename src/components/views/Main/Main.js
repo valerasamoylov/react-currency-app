@@ -1,4 +1,4 @@
-import React, { useEffect, useState, Component } from "react";
+import React, { Component } from "react";
 import { API_URL, API_KEY, Base_Currency } from "../../config";
 import "./Main.css";
 
@@ -53,12 +53,10 @@ class Main extends Component {
   };
 
   render() {
-    const { error, isLoaded } = this.state;
+    const { error } = this.state;
 
     if (error) {
-      return <div>Oops: {error.message}</div>;
-    } else if (!isLoaded) {
-      return <div>Loading...</div>;
+      return <div>{error.message}</div>;
     } else {
       return (
         <main>
