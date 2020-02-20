@@ -1,6 +1,6 @@
 # REACT-CURRENCY-APP
 
-REACT-MOVIEDB is a simple currency information engine made with ReactJS and powered by [Currency] API.
+REACT-CURRENCY is a simple currency information engine made with ReactJS and powered by [Currency] API.
 
 ### Demo
 
