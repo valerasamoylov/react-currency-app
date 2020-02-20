@@ -19,4 +19,4 @@ If you want to continue codding:
 3. Install packages: `npm install`
 4. Launch project: `npm start`
 
-[Currency]: https://https://currencyapi.net//
+[Currency]: https://currencyapi.net/
